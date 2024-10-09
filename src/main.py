@@ -9,7 +9,7 @@ def cargar_datos(ruta_archivo):
         return None
 
 if __name__ == "__main__":
-    ruta_archivo = "C:/Users/PC Master Race/retail-sales-analysis/data/retail_sales_dataset.csv"
+    ruta_archivo = "../data/retail_sales_dataset.csv"
     datos = cargar_datos(ruta_archivo)
     if datos is not None:
         print(datos)
